@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+
+.container {
+    width: 30%;
+    position: relative;
+    text-align: left;
+    border-top: 1px solid #d4cdcd;
+    margin-top: 10px;
+    margin-left: 175px;
+    padding: 10px;
+}
+
+.container .header a {
+    color: #1c1c23;
+    
+    font: 700 14px arial;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content img {
+    float: left;
+}
+
+
+.content p {
+    font: 400 13px/16px arial;
+    color: #333;
+}
+
+.content a {
+    text-decoration: none;
+    color: #666;
+}
+
+
+
+.description {
+    display: inline-block;
+    width: 220px;
+    margin-left: 15px;
+}
+
+/* .description a { 
+    line-height: 1.6;
+    font: 400 11px/14px arial;
+    color: #666;
+
+} */

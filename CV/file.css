@@ -1,0 +1,212 @@
+*{
+    margin:0;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   }
+.container{
+    height: 240vh;
+    width : 550 vw; 
+    background-color: palevioletred;
+    /* background-size : 100% 100%; */
+    position: relative;
+    
+}
+.box-center{
+    background-color : white;
+    position : absolute ;
+    margin: auto;
+    top : 0;
+    left:0;
+    bottom:0;
+    right:0;
+    text-align: center;
+    width: 1150px;
+    height: 1660px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+    
+}
+
+
+.ElonMusk{
+    padding-left: 50px;
+    text-align: left;
+    height: 150px;
+    background-color: blanchedalmond;
+    
+    position: relative;
+}
+
+
+.ElonMusk .box{
+    position: absolute;
+    left : 0px;
+    width: 3%;
+    height: 50px;
+    background-color: rgb(235, 100, 37);
+    top: -0.5px;
+}
+.ElonMusk img{
+    
+  
+    border-radius: 50%;
+   
+    margin-left:450px;
+    margin-top:-120px;
+    padding:1px;
+    position: absolute;
+    height:120px;
+    width:120px;
+    border:3px solid black;
+}
+.information{
+    padding-right:50px;
+    position : absolute;
+    text-align: right;
+    line-height: 35px;
+    top : 0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.WorkExperience{
+    
+    text-align: left;
+    line-height: 11px;
+    padding-left:50px;
+    padding-top:15px;
+    font-size: 15px;
+    position: relative;
+}
+.WorkExperience .box{
+    position: absolute;
+    left : 0px;
+    width: 3%;
+    height: 50px;
+    background-color: rgb(235, 100, 37);
+} 
+
+.WorkExperience .p1{
+    padding-left:200px;
+    color:orange;
+
+}
+.WorkExperience .p2{
+    color: orange;
+    line-height: 0.5;
+}
+.WorkExperience .p3{
+    
+    font-size: 17px;
+    line-height: 2;
+
+}
+.WorkExperience p4{
+    font-size: 17px;
+}
+.Competence{
+    width:408px;
+    position: absolute;
+    right:-0.1px;
+    top:152px;
+    text-align: left;
+   line-height: 1.2;
+   
+}
+.Competence p {
+    line-height: 1.5;
+    
+}
+.Competence p1{
+    font-size: 13px;
+    line-height: 1.5;
+
+}
+.progress{
+    display : inline-block;
+    padding-top: 4px;
+    margin-left: 2rem;
+  
+    
+}
+
+.progress-bar{
+    background-color: white;
+    border: 2px solid rgb(235, 100, 37);
+    width: 12rem;
+  
+
+    
+}
+.bar{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin:-0.9px -0.05px;
+    
+}    
+.bar1{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin: -0.9px;
+}
+.bar2{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin: -0.9px;
+}
+.bar3{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin: -0.9px;
+}
+.bar4{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin: -0.9px;
+}
+.bar5{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin: -0.9px;
+}
+.bar6{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin: -0.9px;
+}
+.bar7{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin: -0.9px;
+}
+.bar8{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin: -0.9px;
+}
+.bar9{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(235, 100, 37);
+    
+    margin: -0.9px;
+}

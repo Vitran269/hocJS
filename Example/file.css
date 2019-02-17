@@ -1,0 +1,25 @@
+table,th,td{
+    border : 3px solid rgb(221, 21, 14);
+    border-collapse: collapse;
+    color: rgb(236, 140, 14);
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color : yellow;
+}
+p{
+    font-style: italic;
+    font-family: tahoma;
+    color : rgb(199, 23, 235);
+}
+ul p{
+    font-style : normal;
+}
+body {
+    background-image: url('photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+marquee{
+    color :rgb(247, 243, 241);
+}

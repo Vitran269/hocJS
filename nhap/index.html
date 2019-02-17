@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+<head>  
+</head>
+<body>
+    <button type="button" id="decreBtn" onclick="decreBtn()">-</button>
+    <input type="text" value="0" id="number" style="text-align: center">
+    <button type="button1" id="increBtn" onclick="increBtn()">+</button>
+    <script>
+    var a = 0 ;
+    function decreBtn(){
+        a = document.getElementById('number').value ;
+         --a;
+         document.getElementById('number').value =a;
+    }
+    function increBtn(){
+        a = document.getElementById('number').value;
+        ++a;
+        document.getElementById('number').value = a;
+    }
+    </script>
+    
+</body>
+</html>

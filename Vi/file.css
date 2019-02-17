@@ -1,0 +1,106 @@
+*{
+    margin:0;
+}
+@-webkit-keyframes my {
+  0% { color: #F8CD0A; } 
+  50% { color: #fff;  } 
+  100% { color: #F8CD0A;  } 
+}
+@-moz-keyframes my { 
+  0% { color: #F8CD0A;  } 
+  50% { color: #fff;  }
+  100% { color: #F8CD0A;  } 
+}
+@-o-keyframes my { 
+  0% { color: rgb(248, 77, 10); } 
+  50% { color: rgb(197, 144, 144); } 
+  100% { color: rgb(224, 34, 20);  } 
+}
+@keyframes my { 
+  0% { color: rgb(248, 66, 10);  } 
+  50% { color: rgb(236, 217, 154);  }
+  100% { color: rgb(248, 46, 10);  } 
+} 
+.Trangone .text {
+      background:pink;
+      font-size:24px;
+      font-weight:bold;
+  -webkit-animation: my 700ms infinite;
+  -moz-animation: my 700ms infinite; 
+  -o-animation: my 700ms infinite; 
+  animation: my 700ms infinite;
+}
+.Tranghai p {
+    line-height: 2;
+   font-style: italic;
+    color:rgb(204, 14, 14);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left:5px;
+    font-size:20px;
+}
+.Tranghai img{
+    border-radius: 50%;
+    padding:1px;
+    top:-90px;
+    height:230px;
+    width:240px;
+    border:2px solid black;
+}
+.trangba #grad1 {
+    height: 900px;
+    background-color: rgb(160, 62, 62); 
+    background-image: linear-gradient(rgb(170, 39, 39), rgb(221, 148, 130)); /* Standard syntax (must be last) */
+  }
+  .trangba .trai{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    font-size:20px;
+    color:rgb(232, 235, 235);
+
+  }
+  
+  .trangnam .clickme{
+      text-align:center;
+      font-size: 60px;
+      color:red;
+      font-style: italic;
+  }
+  .trangbay div {
+    padding: 60px;
+    width: 60px;
+    font-size: 1.5em;
+    color:white;
+    background: pink;
+    
+    margin: 1%;
+    display: inline-block;
+   border-radius: 12px;
+  
+    cursor: pointer;
+    font-family: 'Lato';
+    
+  }
+  
+  .trangbay .o-hide {
+    visibility: hidden;
+    transition: all ease 0.8s;
+  }
+  
+  .trangbay .o-hide:hover {
+    visibility: visible;
+  }
+  
+  .trangbay .o-hide p {
+    visibility: visible;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .trangtam #grad2 {
+    height: 900px;
+    background-color: rgb(69, 158, 161); 
+    background-image: linear-gradient(rgb(8, 168, 168), rgb(179, 210, 219)); /* Standard syntax (must be last) */
+  }
+  
+  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <main>
+            <h1 id="quote"></h1>
+            <cite id="author"></cite>
+            
+            <button onclick="makeQuote()" >Click me  </button>
+        </main>
+        <script>
+          var quotes = [
+              {
+                  quote : 'Hoc,hoc nua, hoc mai',
+                  author : 'ABC'
+              },
+              {
+                  quote : 'We know what we are but know not  what we maybe',
+                  author : 'William Shakespeare'
+              },
+              {
+                  quote : 'Hello',
+                  author : 'Khanh Vi'
+              }
+
+          ];
+          function makeARandom(range){
+              return Math.floor(Math.random()*range);
+            }
+            function getQuote(){
+                return quotes[makeARandom(quotes.length)];
+            }
+            function makeQuote(){
+                var quote = getQuote();
+                var eleQuote = document.getElementById('quote');
+                var eleAuthor = document.getElementById('author');
+
+                eleQuote.innerText = quote.quote;
+                eleAuthor.innerText = quote.author;
+            }
+            window.onload = makeQuote;
+            </script>
+    </body>
+</html>

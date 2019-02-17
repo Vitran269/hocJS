@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <button id ="numbe" style="font-size: 54px" onclick="Button1">1</button>
+ 
+  <div>2</div>
+  <button id="button" style="font-size: 54px">3</button>  
+
+</div>
+<script>
+    var count = 1 ; 
+function Button1(){
+count++;
+document.getElementById("number").innerText = count;
+}
+</script>
+</body>
+</html>
