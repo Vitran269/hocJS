@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html >
-<head>  
+<html>
+<head>
+<style>
+#div1 {
+   float: left;
+   border: 3px solid #73AD21;
+}
+
+#div2 {
+   border: 1px solid red;
+   clear: left;
+}
+
+</style>
 </head>
 <body>
-    <button type="button" id="decreBtn" onclick="decreBtn()">-</button>
-    <input type="text" value="0" id="number" style="text-align: center">
-    <button type="button1" id="increBtn" onclick="increBtn()">+</button>
-    <script>
-    var a = 0 ;
-    function decreBtn(){
-        a = document.getElementById('number').value ;
-         --a;
-         document.getElementById('number').value =a;
-    }
-    function increBtn(){
-        a = document.getElementById('number').value;
-        ++a;
-        document.getElementById('number').value = a;
-    }
-    </script>
-    
+
+<h2>Without clear</h2>
+<div id='div1'>Box1</div>
+<div id='div2'>Box2</div>
+
 </body>
 </html>
+
+
